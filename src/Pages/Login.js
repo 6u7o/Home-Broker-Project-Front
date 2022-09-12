@@ -26,11 +26,15 @@ function Login() {
       };
       const { data } = await api.get('/conta', config);
       localStorage.setItem('userId', data.id);
+      localStorage.setItem('userName', data.user_name);
       navigate('/home');
     } else {
       setError(true);
     }
   };
+
+
+
 
   return (
     <div className="login">
