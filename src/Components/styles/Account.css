@@ -1,0 +1,12 @@
+.account-box {
+  display: flex;
+  /* border: solid 1px black; */
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  margin-bottom: 100px;
+}
+
+h3 {
+  margin-bottom: 100px;
+}
