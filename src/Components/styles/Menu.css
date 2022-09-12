@@ -1,0 +1,30 @@
+.menu-box {
+  display: flex;
+  /* border: solid 1px black; */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  width: 300px;
+}
+
+.profile {
+  width: 100px;
+  width: 100px;
+  margin-bottom: 15%;
+}
+
+.profile-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.link-menu {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  margin-bottom: 7px;
+}
