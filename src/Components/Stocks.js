@@ -24,7 +24,9 @@ function Stocks() {
   }, []);
 
   const onClickButton = async ({ target }) => {
-    const qty = target.previousElementSibling.value;
+    // const qty = target.previousElementSibling.value;
+    // const assetId = target.parentElement.parentElement.id;
+    const qty = target.parentElement.previousElementSibling.firstElementChild.value;
     const assetId = target.parentElement.parentElement.id;
     const userId = localStorage.getItem('userId');
     const body = {
